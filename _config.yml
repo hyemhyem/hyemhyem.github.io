@@ -1,0 +1,23 @@
+# Build settings
+
+markdown: kramdown
+permalink: none
+plugins:             [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
+
+port: 4000
+
+sass:
+  sass_dir: assets/css
+  style: :nested
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+
+title:		           "Portfolio Jekyll Theme"
+description:	       "Powered by Jekyll and GitHub Pages"
+author:              "Paul Le"
+
+url                      : "https://hyemin.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+
+
+remote_theme : LeNPaul/portfolio-jekyll-theme
